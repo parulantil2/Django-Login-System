@@ -1,12 +1,13 @@
-Overview
-This project is a Django-based web application that includes:
+<h1>Overview</h1>
+<p>This project is a Django-based web application that includes:</p>
 
 User Authentication: Registration, login, logout, and JWT-based authentication.
-CRUD Operations: Create, read, update, and delete functionality for a specific model (e.g., user profiles, posts).
-Pagination: Efficient pagination for list views.
-Email Notifications: Send email after user registration.
-REST API: Built using Django REST Framework with JWT for authentication.
-Features
+<br>
+CRUD Operations: Create, read, update, and delete functionality for a specific model (e.g., user profiles).<br>
+Pagination: Efficient pagination for list views.<br>
+Email Notifications: Send email after user registration.<br>
+REST API: Built using Django REST Framework with JWT for authentication.<br>
+<h1>Features</h1>
 User Authentication: Users can register, log in, log out, and reset passwords.
 JWT Authentication: Protect API endpoints using JSON Web Tokens.
 CRUD Functionality: Perform CRUD operations on the provided models (e.g., posts, users).
