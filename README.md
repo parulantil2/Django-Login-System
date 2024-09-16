@@ -20,8 +20,8 @@ This project is a Django-based web application that includes:
 ## Technologies Used
 
 - **Backend**: Django 4.x, Django REST Framework
-- **Frontend**: HTML, CSS, JavaScript (or any other front-end framework if used)
-- **Database**: MySQL / PostgreSQL / SQLite (whichever you're using)
+- **Frontend**: HTML, CSS, JavaScript 
+- **Database**:  SQLite 
 - **Authentication**: JWT Authentication using `djangorestframework-simplejwt`
 - **Pagination**: Django REST Framework's built-in pagination system
 - **Email**: Django's email system for sending notifications
@@ -40,3 +40,42 @@ Before running this project, ensure that you have the following installed on you
 
 1. **Clone the repository:**
   (https://github.com/parulantil2/Django-Login-System.git)
+
+## Usage
+
+### Authentication
+
+- **Register**: Visit `/register/` to create a new user.
+- **Login**: Use `/login/` to log in with credentials.
+- **JWT Authentication**: 
+  - Obtain a JWT token by accessing `/api/token/`.
+  - Refresh the JWT token by accessing `/api/token/refresh/`.
+
+### CRUD Operations
+
+- **Create**: Use the appropriate form or API endpoint to create a new resource.
+- **Read**: View details or lists of resources with pagination.
+- **Update**: Edit existing resources.
+- **Delete**: Remove resources.
+
+### Pagination
+
+- Lists are paginated to show a limited number of results per page. You can navigate through pages using the provided controls or API pagination.
+
+## API Documentation
+
+The following API endpoints are available:
+
+### Authentication
+
+- `/api/token/`: Obtain a JWT token.
+- `/api/token/refresh/`: Refresh the JWT token.
+
+### CRUD Operations
+
+- `/api/items/`: List all items (paginated).
+- `/api/items/<id>/`: Retrieve, update, or delete a specific item.
+
+### Email Notifications
+
+- After registering, users will receive an email confirming their registration.
