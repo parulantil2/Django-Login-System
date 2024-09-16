@@ -81,7 +81,4 @@ The following API endpoints are available:
 
 - After registering, users will receive an email confirming their registration.
 
-## Project Structure
 
-The project is organized as follows:
-Django Login System/ │ ├── myproject/ │ ├── settings.py # Project settings │ ├── urls.py # URL declarations │ ├── wsgi.py # WSGI configuration │ └── ... # Other project-level files │ ├── myapp/ │ ├── migrations/ # Database migrations │ ├── models.py # Data models │ ├── views.py # Views for handling requests │ ├── serializers.py # Serializers for API endpoints │ ├── urls.py # App-specific URL declarations │ └── ... # Other app-specific files │ ├── templates/ │ ├── registration/ │ │ ├── login.html # Login page template │ │ └── register.html # Registration page template │ └── base.html # Base template for the application │ ├── static/ │ ├── css/ # CSS stylesheets │ ├── js/ # JavaScript files │ └── images/ # Images │ ├── manage.py # Django management script ├── requirements.txt # Python dependencies └── README.md # Project documentation
