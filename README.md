@@ -2,7 +2,7 @@
 <p>This project is a Django-based web application that includes:</p>
 
 <h5>User Authentication: </h5>Registration, login, logout, and JWT-based authentication.
-<br>
+
 <h5>CRUD Operations:</h5> Create, read, update, and delete functionality for a specific model (e.g., user profiles).<br>
 <h5>Pagination: </h5>Efficient pagination for list views.<br>
 Email Notifications:</h5> Send email after user registration.<br>
