@@ -41,4 +41,4 @@ Before running this project, ensure that you have the following installed on you
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/your-repository.git
+  (https://github.com/parulantil2/Django-Login-System.git)
