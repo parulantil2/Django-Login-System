@@ -70,11 +70,12 @@ The following API endpoints are available:
 
 - `/api/token/`: Obtain a JWT token.
 - `/api/token/refresh/`: Refresh the JWT token.
+- `/api/token/verify/`: Verify the JWT token.
 
 ### CRUD Operations
 
-- `/api/items/`: List all items (paginated).
-- `/api/items/<id>/`: Retrieve, update, or delete a specific item.
+- `/users/`: List all items (paginated).
+- `/users/<int:pk>/`: Retrieve, update, or delete a specific item.
 
 ### Email Notifications
 
